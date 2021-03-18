@@ -27,7 +27,7 @@ function App() {
   }, [])
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyles />
       <View>
         <Route exact path='/' component={ExtraServices} />
