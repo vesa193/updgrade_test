@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Sans'),
+    url('./assets/fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito Sans'),
+    url('./assets/fonts/NunitoSans-Bold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .collapse1 {
+  background: linear-gradient(
+      147.42deg,
+      rgba(64, 72, 93, 0.4) 6.32%,
+      rgba(96, 106, 130, 0.4) 92.25%
+    ),
+    linear-gradient(128deg, #e6e7ed -79.65%, #f7f8fa 151.25%);
+  background-blend-mode: soft-light, normal;
+  box-shadow: -7px -7px 16px #fafbfc, 4px 3px 19px #bdc1d1,
+    inset -1px -1px 16px #f5f6fa, inset 1px 1px 16px #e9eaf2;
+  border-radius: 8px;
+} */
+
+.collapse2 {
+  width: 10px;
+  height: 10px;
+  background-color: brown;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+
+*:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.checkShadow {
+  box-shadow: inset -2px -2px 6px #ffffff, inset 2px 2px 3px #bdc1d1 !important;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.checkShadow2 {
+  box-shadow: -2px -3px 8px #fafafc, 1px 1px 5px rgba(177, 181, 198, 0.339052),
+    inset 1px 1px 3px #ebecf0 !important;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+label {
+  margin-bottom: 0px !important;
+}
+
+a {
+  width: 100%;
+  color: #000 !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.custom-toggle.react-toggle--checked .react-toggle-track {
+  background-color: #34c759;
+}
+
+.custom-toggle.react-toggle--checked .react-toggle-track,
+.custom-toggle.react-toggle .react-toggle-track {
+  width: 50px;
+  height: 31px;
+}
+
+.custom-toggle.react-toggle--checked .react-toggle-thumb {
+  left: 20px;
+  border: 1px solid #34c759;
+}
+
+.custom-toggle.react-toggle--checked .react-toggle-thumb,
+.custom-toggle.react-toggle .react-toggle-thumb {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);
+  width: 29px !important;
+  height: 29px !important;
+}
+
+.slider {
+  padding: 50px 0;
+  width: 100%;
+}
+
+.slider .rangeslider-horizontal .rangeslider__handle:after {
+  display: none;
+}
+
+.slider .rangeslider-horizontal .rangeslider__handle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+}
+
+.slider .rangeslider__handle-label {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.slider .rangeslider .rangeslider__handle {
+  background: linear-gradient(
+      147.42deg,
+      rgba(64, 72, 93, 0.4) 6.32%,
+      rgba(96, 106, 130, 0.4) 92.25%
+    ),
+    linear-gradient(128deg, #e6e7ed -79.65%, #f7f8fa 151.25%);
+  background-blend-mode: soft-light, normal;
+  box-shadow: -7px -7px 16px #fafbfc, 4px 3px 19px #bdc1d1,
+    inset -1px -1px 16px #f5f6fa, inset 1px 1px 16px #e9eaf2;
+  border: none !important;
+}
+
+.slider .rangeslider {
+  background: #ebecf0;
+  box-shadow: 1px 1px 7px #ebecf0, inset -5px -4px 10px #fafbfc,
+    inset 3px 3px 8px #bdc1d1;
+  border-radius: 16px;
+}
+
+.slider .rangeslider-horizontal .rangeslider__fill {
+  background: #ebecf0;
+  box-shadow: 1px 1px 7px #ebecf0, inset -5px -4px 10px #fafbfc,
+    inset 3px 3px 8px #bdc1d1;
+  border-radius: 16px;
+}
+
+.react-code-input > * {
+  width: 55px !important;
+  height: 60px !important;
+  background: linear-gradient(
+      147.42deg,
+      rgba(64, 72, 93, 0.4) 6.32%,
+      rgba(96, 106, 130, 0.4) 92.25%
+    ),
+    linear-gradient(128deg, #e6e7ed -79.65%, #f7f8fa 151.25%) !important;
+  background-blend-mode: soft-light, normal !important;
+  box-shadow: -7px -7px 16px #fafbfc, 4px 3px 19px #bdc1d1,
+    inset -1px -1px 16px #f5f6fa, inset 1px 1px 16px #e9eaf2 !important;
+  border-radius: 8px !important;
+  border: none !important;
+  padding-left: 22px !important;
+  font-size: 20px !important;
+}
